@@ -9012,6 +9012,10 @@ html .ui-button.ui-state-disabled:active:hover {
             .input_btn{
                 margin-top: 5px;
             }
+            .close{
+                font-size: 33px;
+                top: 3px;
+            }
         }
     /* popup css end*/
 
