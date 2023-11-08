@@ -9004,6 +9004,10 @@ html .ui-button.ui-state-disabled:active:hover {
                 border-radius: 10px;
         }
 
+        #input_date::placeholder{
+            color: #000;
+        }
+
         /* responsive popup */
         @media (max-width:768px){
             .popup_input input{
