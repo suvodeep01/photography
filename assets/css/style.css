@@ -8922,3 +8922,98 @@ html .ui-button.ui-state-disabled:active:hover {
 .contact-me-area .social-icon li a:hover i {
     color: var(--text-color1)
 }
+
+/* suvodeep css */
+
+/* popup css start */
+        [tabindex="-1"]:focus:not(:focus-visible) {
+            outline: 0 !important;
+        }
+        #overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            z-index: 99999;
+            display: none;
+            margin: 0;
+            width: 100%;
+            height: 100%;
+            color: #aaa;
+            background-color: rgba(0, 0, 0, 0.76);
+        }
+
+        #popup {
+            background: #fff;
+            max-width: 550px;
+            margin: 3% auto;
+            position: relative;
+            color: #0e0e0e;
+            padding: 15px;
+        }
+
+        .close {
+            position: absolute;
+            top: 0px;
+            right: 20px;
+            font-size: 45px;
+            cursor: pointer;
+            z-index: 5;
+            color: #000;
+        }
+
+        .popup_img{
+            margin-bottom: 20px;
+        }
+
+        .popup_img h2{
+            margin-bottom: 20px;
+        }
+        
+        #input_m{
+            margin-bottom: 20px;
+        }
+
+        .popup_input{
+            text-align: center;
+        }
+
+        .popup_input input{
+            padding: 20px;
+        }
+
+        .input_btn{
+            padding: 10px 0px;
+            width: 140px !important;
+            background-color: #fa6350;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 16px;
+            display: inline-block;
+            margin-bottom: 10px;
+            transition: 0.5s;
+            border: 2px solid #fa6350;
+        }
+
+        .input_btn:hover{
+                background-color: #fff;
+                color: #fa6350;
+                border-radius: 10px;
+        }
+
+        /* responsive popup */
+        @media (max-width:768px){
+            .popup_input input{
+                margin-bottom: 20px;
+            }
+            .input_btn{
+                margin-top: 5px;
+            }
+        }
+    /* popup css end*/
+
+
+/* suvodeep css end */
