@@ -700,7 +700,10 @@ i.bx {
 .preloader::before {
     position: absolute;
     top: 45%;
-    content: url(../images/header-logo2.svg);
+    content: 'Crazy Lens';
+    color: #FFAA17;
+    font-size: 45px;
+    font-weight: bolder;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -8925,6 +8928,22 @@ html .ui-button.ui-state-disabled:active:hover {
 
 /* suvodeep css */
 
+/* custom scrolbar start */
+body::-webkit-scrollbar {
+    width: 12px;
+  }
+   
+  body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+   
+  body::-webkit-scrollbar-thumb {
+    background-color: #FA6350;
+    border-radius: 10px;
+    /* outline: 1px solid slategrey; */
+  }
+/* custom scrolbar end */
+
 /* popup css start */
         [tabindex="-1"]:focus:not(:focus-visible) {
             outline: 0 !important;
@@ -9022,6 +9041,18 @@ html .ui-button.ui-state-disabled:active:hover {
             }
         }
     /* popup css end*/
+
+    /* start navbar sidebar */
+        #sidebar_menu_list{
+            padding: 25px 0px;
+        }
+    /* end navbar sidebar */
+
+    /* start about */
+        .about-img2::after{
+            border: none !important;
+        }
+    /* end about */
 
 
 /* suvodeep css end */
