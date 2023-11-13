@@ -9026,6 +9026,9 @@ body::-webkit-scrollbar {
         #input_date::placeholder{
             color: #000;
         }
+        .popup_img img{
+            height: 300px;
+        }
 
         /* responsive popup */
         @media (max-width:768px){
@@ -9038,6 +9041,9 @@ body::-webkit-scrollbar {
             .close{
                 font-size: 33px;
                 top: 5px;
+            }
+            .popup_img img{
+                height: 240px;
             }
         }
     /* popup css end*/
