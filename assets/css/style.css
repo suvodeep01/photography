@@ -9060,5 +9060,11 @@ body::-webkit-scrollbar {
         }
     /* end about */
 
+    /* start about us page */
+    #pages_banner{
+        padding: 180px 0px 120px;
+    }
+    /* end about us page */
+
 
 /* suvodeep css end */
