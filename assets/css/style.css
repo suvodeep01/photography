@@ -6505,15 +6505,16 @@ header.style-3 .mobile-menu-btn .bx {
 }
 
 .choose-area .choose-bg {
-    background-image: url(../images/bg/choose-bg.png);
+    background-image: url(../images/other/book_bg.jpg);
     background-size: cover;
     background-position: center center
 }
 
 .choose-area .choose-bg .choose-content {
     background: #fff;
-    border: 25px solid #383838;
+    border: 12px solid #383838;
     padding: 50px 35px;
+    border-radius: 15px;
     transform: translateY(-100px)
 }
 
@@ -9065,6 +9066,12 @@ body::-webkit-scrollbar {
         padding: 180px 0px 120px;
     }
     /* end about us page */
+
+    /* start book now page */
+    #choose_us{
+        margin-top: 70px;
+    }
+    /* end book now page */
 
 
 /* suvodeep css end */
