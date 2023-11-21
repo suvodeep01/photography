@@ -7901,13 +7901,13 @@ header.style-3 .mobile-menu-btn .bx {
 }
 
 .contact-us-page .location-map {
-    width: 100%
+    width: 100%;
+    border: 1px solid rgba(250, 100, 80, 0.422);
 }
 
 .contact-us-page .location-map iframe {
     height: 440px;
     width: 100%;
-    filter: grayscale(199%) invert(98%) contrast(122%)
 }
 
 .pricing-plan-area .section-title1 {
